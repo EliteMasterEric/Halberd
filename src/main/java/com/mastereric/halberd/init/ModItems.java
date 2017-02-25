@@ -64,7 +64,7 @@ public final class ModItems {
     public static void registerItemModel(Item item, int metadata) {
     	// Register the item model.
     	ModelLoader.setCustomModelResourceLocation(item, metadata,
-    			new ModelResourceLocation(new ResourceLocation(Reference.MOD_ID, item.getRegistryName().toString()), "inventory"));
+    			new ModelResourceLocation(item.getRegistryName(), "inventory"));
     	
     	System.out.println("Registered item model ~ " + item.getRegistryName() + " ~ " + item.getUnlocalizedName());
     }

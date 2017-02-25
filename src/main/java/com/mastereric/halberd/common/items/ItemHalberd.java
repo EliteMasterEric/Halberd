@@ -19,5 +19,6 @@ public class ItemHalberd extends ItemAxe {
 		super(material);
         this.material = material;
         this.maxStackSize = 1;
+        this.setCreativeTab(CreativeTabs.COMBAT);
 	}
 }
