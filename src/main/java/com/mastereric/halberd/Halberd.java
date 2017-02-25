@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, version = Reference.MOD_VERSION, acceptedMinecraftVersions = Reference.MC_VERSION)
@@ -17,7 +18,7 @@ public class Halberd {
 	public static CommonProxy proxy;
 	
     @EventHandler
-    public void preInit(FMLInitializationEvent event) {
+    public void preInit(FMLPreInitializationEvent event) {
         System.out.println("Initializing " + Reference.MOD_ID + "...");
         
         // Do common initialization.
