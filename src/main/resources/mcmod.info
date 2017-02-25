@@ -1,0 +1,16 @@
+[
+{
+  "modid": "halberd",
+  "name": "Halberd",
+  "description": "Adds a halberd.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["EliteMasterEric","CheapGSean"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
